@@ -15,7 +15,7 @@ RUN wget -O /usr/local/bin/zdbfs https://github.com/threefoldtech/0-db-fs/releas
     wget -O /usr/local/bin/zdb https://github.com/threefoldtech/0-db/releases/download/v${ZDB_VERSION}/zdb-${ZDB_VERSION}-linux-amd64-static && \
     wget -O /usr/local/bin/zdb-hook.sh https://raw.githubusercontent.com/threefoldtech/quantum-storage/master/lib/zdb-hook.sh && \
     wget -O /usr/local/bin/zstor https://github.com/threefoldtech/0-stor_v2/releases/download/v${ZSTOR_VERSION}/zstor_v2-x86_64-linux-musl  && \
-    wget -O /sbin/zinit https://github.com/threefoldtech/zinit/releases/download/v${ZINIT_VERSION}/zinit
+    wget -O /sbin/zinit https://github.com/threefoldtech/zos_zinit/releases/download/v${ZINIT_VERSION}/zinit
 
 # Set executable permissions
 RUN chmod +x /usr/local/bin/* /sbin/zinit
